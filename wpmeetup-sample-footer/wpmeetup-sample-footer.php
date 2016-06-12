@@ -16,4 +16,4 @@ function wpmeetup_footer () {
 
 // hook `wp_footer`
 // https://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer
-add_filter( 'wp_footer', 'wpmeetup_footer' );
+add_action( 'wp_footer', 'wpmeetup_footer' );
