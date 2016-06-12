@@ -16,4 +16,4 @@ function wpmeetup_function () {
 }
 
 // Hook a function.
-add_action( 'wp_footer', 'wpmeetup_function' );
+add_filter( 'wp_footer', 'wpmeetup_function' );
