@@ -20,11 +20,7 @@ function wpmeetup_custom_x () {
 		'post',
 		array(
 			'label' => __( 'People' ),
-			'rewrite' => array( 'slug' => 'person' ),
-			'capabilities' => array(
-				'assign_terms' => 'edit_guides',
-				'edit_terms' => 'publish_guides'
-			)
+			'rewrite' => array( 'slug' => 'person' )
 		)
 	);
 }
